@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eefaf0;
+    /* overflow: hidden; */
+   
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin: auto;
+   position: sticky;
+    
+}
+
+.navbar {
+    display: flex;
+     list-style: none;
+     background-color: #399147;
+     
+}
+
+
+li a {
+    text-decoration: none;
+    padding: 1.4em;
+    font-size: 1.2em;
+    color: #eefaf0;
+}
